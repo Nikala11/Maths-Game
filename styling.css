@@ -1,11 +1,10 @@
 body {
-    background-color: #ACBB78;
+    background-color: #bed8e4;
     padding: 40px;
     height: 100vh;
 }
 .container-fluid {
     background-color: #009de4;
-    /* background-color: #AA076B; */
     padding: 20px;
     border-radius: 10px;
     position: relative;
@@ -152,15 +151,10 @@ body {
     border-radius: 3px;
     display: none;
     background-color: greenyellow;
-    /* animation: myanimation 10s; */
+    text-align: center;
 }
-/* @keyframes myanimation { */
-    /* 0% {background: greenyellow;} */
-    /* 60% {background:orange;} */
-    /* 100% {background:red;} */
-/* } */
-@media(max-width: 1070px) {
-    #timeold {
+@media(max-width: 550px) {
+    #hidetext {
         display: none;
     }
     #timeremaining {
