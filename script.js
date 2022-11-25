@@ -124,17 +124,3 @@ function generateQA(){
         }
     }
 }
-
-
-// animation
-
-// function showText() {
-//     timeremaining.style.backgroundColor = "red"
-// }
-
-// const btn = document.getElementById('startreset');
-
-// timeremaining.addEventListener('click', function onClick() {
-//   timeremaining.style.backgroundColor = 'salmon';
-//   timeremaining.style.color = 'white';
-// });
