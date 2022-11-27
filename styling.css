@@ -19,16 +19,10 @@ body {
     width: 20%;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #F09819;
-    -moz-box-shadow: 0px 0px 10px 0px #F09819;
-    -o-box-shadow: 0px 0px 10px 0px #F09819;
-    -webkit-box-shadow: 0px 0px 10px 0px #F09819;
 }
 #correct {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #42e252;
-    -moz-box-shadow: 0px 0px 10px 0px #42e252;
-    -o-box-shadow: 0px 0px 10px 0px #42e252;
-    -webkit-box-shadow: 0px 0px 10px 0px #42e252;
     position: absolute;
     left: 45%;
     top: 3%;
@@ -40,9 +34,6 @@ body {
 #wrong {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #de401a;
-    -moz-box-shadow: 0px 0px 10px 0px #de401a;
-    -o-box-shadow: 0px 0px 10px 0px #de401a;
-    -webkit-box-shadow: 0px 0px 10px 0px #de401a;
     position: absolute;
     left: 45%;
     top: 3%;
@@ -70,9 +61,6 @@ body {
     text-align: center;
     line-height: 45px;
     box-shadow: 0px 0px 10px 0px orange;
-    -moz-box-shadow: 0px 0px 10px 0px orange;
-    -o-box-shadow: 0px 0px 10px 0px orange;
-    -webkit-box-shadow: 0px 0px 10px 0px orange;
     border-radius: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
@@ -96,18 +84,12 @@ body {
     line-height: 80px;
     position: relative;
     transition: all 0.2s;
-    -moz-transition: all 0.2 s;
-    -o-transition: all 0.2s;
-    -webkit-transition: all 0.2s;
 }
 .box:nth-child(1) {
     margin-left: 5%;
 }
 .box:hover {
     box-shadow: 0px 0px 10px 0px white;
-    -moz-box-shadow: 0px 0px 10px 0px white;
-    -o-box-shadow: 0px 0px 10px 0px white;
-    -webkit-box-shadow: 0px 0px 10px 0px white;
 }
 .box:active {
     color: black;
@@ -125,15 +107,9 @@ body {
     border-radius: 3px;
     cursor: pointer;
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
-    -o-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
     text-align: center;
     position: relative;
     transition: all 0.2s;
-    -moz-transition: all 0.2 s;
-    -o-transition: all 0.2s;
-    -webkit-transition: all 0.2s;
 }
 #startreset:hover {
     color: black;
@@ -168,9 +144,6 @@ body {
     user-select: none;
     height: 200px;
     background: linear-gradient(#F3CA6B, #F09819);
-    background: -webkit-linear-gradient(#F3CA6B, #F09819);
-    background: -o-linear-gradient(#F3CA6B, #F09819);
-    background: -moz-linear-gradient(#F3CA6B, #F09819);
     color: white;
     font-size: 2.5em;
     padding-top: 20px;
